@@ -80,7 +80,7 @@
 function book(e,i){
     
     localStorage.setItem("movie",JSON.stringify(e));
-    // window.location.reload();
+    window.location.reload();
 
 }
   

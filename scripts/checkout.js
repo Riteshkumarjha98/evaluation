@@ -19,7 +19,7 @@ data.map(function(e,i){
     let image = document.createElement("img")
     image.src=e.Poster;
     
-    let title = document.createElement("p");
+    let title = document.createElement("h3");
     title.innerText=e.Title;
 
     main.append(image,title);
