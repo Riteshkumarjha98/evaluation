@@ -73,12 +73,13 @@
           func()
       },delay);
   }
-  let dataArr = JSON.parse(localStorage.getItem("search"))||[];
+
+  let dataArr = JSON.parse(localStorage.getItem("movie"))||[];
 
 
 function book(e,i){
-    dataArr.push(e);
-    localStorage.setItem("search",JSON.stringify(dataArr));
+    
+    localStorage.setItem("movie",JSON.stringify(e));
     // window.location.reload();
 
 }

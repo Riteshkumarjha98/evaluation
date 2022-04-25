@@ -9,9 +9,9 @@ function myFunc(){
 }
 
 
-let data = JSON.parse(localStorage.getItem("search"))||[];
+let data = JSON.parse(localStorage.getItem("movie"))||[];
 console.log(data)
-let mainDiv = document.getElementById("search");
+let mainDiv = document.getElementById("movie");
 
 data.map(function(e,i){
     let main = document.createElement("div");
